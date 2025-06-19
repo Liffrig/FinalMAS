@@ -1,0 +1,24 @@
+<Page x:Class="mas_wms.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:mas_wms"
+      xmlns:utu="using:Uno.Toolkit.UI"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  <ScrollViewer IsTabStop="True">
+  <StackPanel>
+    <Grid>
+      <TextBlock FontSize="35" TextAlignment="Center" Text="MAS WMS"/>
+      <TextBlock FontSize="10" TextAlignment="Right" Text="2025-06-18"/>
+    </Grid>
+    <TextBlock Padding="50" FontSize="25" Style="{StaticResource HeaderTextBlockStyle}" Text="Menu"/>
+    <StackPanel />
+    <GridView>
+    </GridView>
+    <Button Margin="10" MinHeight="40" MinWidth="144" Content="Inbound" />
+    <Button Margin="10" MinHeight="40" MinWidth="144" Content="Transfer" />
+    <Button Margin="10" MinHeight="40" MinWidth="144" Content="Kit Replenishment" />
+    <Button Margin="10" MinHeight="40" MinWidth="144" Content="Kits" />
+    <utu:Divider />
+  </StackPanel>
+  </ScrollViewer>
+</Page>
