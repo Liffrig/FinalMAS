@@ -1,0 +1,47 @@
+[
+  {
+    "Level": 1,
+    "Code": "1.0",
+    "Zone": "A",
+    "IsBlocked": false,
+    "Height": 10,
+    "Width": 20,
+    "Length": 30
+  },
+  {
+    "Level": 2,
+    "Code": "1.1",
+    "Zone": "A",
+    "IsBlocked": false,
+    "Height": 10,
+    "Width": 20,
+    "Length": 30
+  },
+  {
+    "Level": 3,
+    "Code": "1.2",
+    "Zone": "A",
+    "IsBlocked": false,
+    "Height": 10,
+    "Width": 20,
+    "Length": 30
+  },
+  {
+    "Level": 1,
+    "Code": "1.3",
+    "Zone": "A",
+    "IsBlocked": false,
+    "Height": 10,
+    "Width": 20,
+    "Length": 30
+  },
+  {
+    "Level": 2,
+    "Code": "1.4",
+    "Zone": "A",
+    "IsBlocked": false,
+    "Height": 10,
+    "Width": 20,
+    "Length": 30
+  }
+]

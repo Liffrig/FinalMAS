@@ -1,0 +1,26 @@
+[
+  {
+    "Code": "3.0",
+    "Zone": "C",
+    "IsBlocked": false,
+    "Height": 100,
+    "Width": 200,
+    "Length": 300
+  },
+  {
+    "Code": "3.1",
+    "Zone": "C",
+    "IsBlocked": false,
+    "Height": 100,
+    "Width": 200,
+    "Length": 300
+  },
+  {
+    "Code": "3.2",
+    "Zone": "C",
+    "IsBlocked": false,
+    "Height": 100,
+    "Width": 200,
+    "Length": 300
+  }
+]

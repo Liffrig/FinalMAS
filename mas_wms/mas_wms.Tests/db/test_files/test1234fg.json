@@ -1,0 +1,24 @@
+[
+  {
+    "BaseValue": 12.3,
+    "MaxTemperature": 32.3,
+    "Weight": 3,
+    "ItemNumber": "AAA1",
+    "Description": "abcd",
+    "Height": 1,
+    "Width": 2,
+    "Length": 3,
+    "Lots": [
+      {
+        "LotNumber": "1",
+        "ExpiryDate": "2025-06-19T18:15:37.4814357+02:00",
+        "IsBlocked": false
+      },
+      {
+        "LotNumber": "2",
+        "ExpiryDate": "2025-06-19T18:15:37.4833182+02:00",
+        "IsBlocked": false
+      }
+    ]
+  }
+]

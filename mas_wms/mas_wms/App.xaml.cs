@@ -1,3 +1,5 @@
+using mas_wms.Model;
+using mas_wms.Model.Meta;
 using Uno.Resizetizer;
 
 namespace mas_wms;
@@ -8,7 +10,8 @@ public partial class App : Application {
     /// executed, and as such is the logical equivalent of main() or WinMain().
     /// </summary>
     public App() {
-        this.InitializeComponent();
+        
+         this.InitializeComponent();
     }
 
     protected Window? MainWindow { get; private set; }
@@ -52,4 +55,6 @@ public partial class App : Application {
     void OnNavigationFailed(object sender, NavigationFailedEventArgs e) {
         throw new InvalidOperationException($"Failed to load {e.SourcePageType.FullName}: {e.Exception}");
     }
+    
 }
+
